@@ -1,0 +1,6 @@
+Write a requirements document for two programs:
+- One that writes the current date/time to a file every 10 seconds and
+- Another one that runs every 7 seconds and reads the last logged entry from that file and prints it to the console.
+Write it down in a markdown format.
+
+Write the list of tasks required to implement those requirements. Use a JSON format for that.

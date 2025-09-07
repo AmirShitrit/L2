@@ -1,4 +1,4 @@
 #!/bin/bash
 
-writer.sh & reader.sh &
-
+writer.sh &
+reader.sh &

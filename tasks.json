@@ -1,0 +1,28 @@
+{
+  "tasks": {
+    "common_setup": [
+      "Define shared log file name (datetime.log)",
+      "Decide on programming language (e.g., Python)",
+      "Set up project structure with separate source files (writer, reader)",
+      "Implement error handling and logging utilities"
+    ],
+    "writer_program": [
+      "Create/open the log file in append mode",
+      "Implement a loop that runs indefinitely",
+      "Get the current system date and time in ISO 8601 format",
+      "Write the timestamp to the log file followed by a newline",
+      "Flush the file buffer to ensure data is written",
+      "Sleep for 10 seconds before next write",
+      "Handle file I/O errors gracefully (retry on next interval)"
+    ],
+    "reader_program": [
+      "Check if log file exists, otherwise wait and retry",
+      "Implement a loop that runs indefinitely",
+      "Open the log file in read mode",
+      "Read the last line from the file safely (only complete lines)",
+      "Print the last line to the console in a readable format",
+      "Sleep for 7 seconds before next read",
+      "Handle file access errors gracefully (retry on next interval)"
+    ]
+  }
+}
